@@ -1,4 +1,5 @@
 import tshirt from "../assets/tshirt.png"
+// remove import and then -> change image value from tshirt to "./abcd" also delete images
 
 export function ProductCard({ name = "T-Shirt", price = "₹499", image = tshirt }) {
   return (

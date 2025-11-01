@@ -6,7 +6,7 @@ import { ProductCard } from "../components2/productcard";
 import { ResumePreview } from "../components2/resumecard";
 import { StudentCard } from "../components2/studentcard";
 import { TrainSearch } from "../components2/trainsearch";
-
+// use whatever component you want from components2
 export default function DisplayPage(){
     return(
         <div>

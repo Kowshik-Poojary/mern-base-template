@@ -19,6 +19,7 @@ export default function App() {
             <Route path="/form" element={<FormPage />} />
             <Route path="/records" element={<RecordsPage />} />
             <Route path="/displaypage" element={<DisplayPage />} />
+            {/* create a new route by copying the above tag <Route path="/varun" element={<Varun/>} /> -> Navbar also import above*/}
           </Routes>
         </div>
         <Footer />

@@ -32,7 +32,7 @@ export default function Navbar() {
         </Link>
         <Link to="/records" className="hover:underline">Records</Link>
         <Link to="/displaypage" className="hover:underline">Display</Link>
-
+        {/* copy the above tag <Link to="/varun" className="hover:underline">Varun</Link> */}
 
         {isLoggedIn ? (
           <button

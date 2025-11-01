@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-
+// change in 3 places in form page -> change in model -> change in recordpage 
 export default function FormPage() {
   const [form, setForm] = useState({ name: "", email: "", message: "", phone: "", address: "", quantity: "", dateOfBirth:"" });
 
@@ -18,7 +18,7 @@ export default function FormPage() {
         className="bg-white shadow-lg rounded-lg p-6 w-96"
       >
         <h2 className="text-xl font-semibold mb-4 text-center text-blue-600">
-          Add New Record
+          Add Details
         </h2>
         <input
           className="border p-2 w-full mb-3"
